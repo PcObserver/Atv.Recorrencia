@@ -3,8 +3,6 @@ import javax.script.ScriptEngineManager;
 
 public class Main {
     public static void main(String[] args) {
-        ScriptEngineManager sem = new ScriptEngineManager();
-        ScriptEngine se = sem.getEngineByName("JavaScript");
         String equiation = "T(n-1)^n";
         Object result = calculateRecurrenceSequencePositionValue(equiation, 3, 2);
         System.out.println("Result = "+result);
