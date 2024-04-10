@@ -3,7 +3,6 @@ import javax.script.ScriptEngineManager;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         ScriptEngineManager sem = new ScriptEngineManager();
         ScriptEngine se = sem.getEngineByName("JavaScript");
         String equiation = "T(n-1)^n";
